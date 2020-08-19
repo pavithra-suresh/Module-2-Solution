@@ -1,0 +1,81 @@
+*{
+	box-sizing: border-box;
+}
+.row{
+	width: 100%;
+	overflow: none;
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: right;
+	margin-top: 0;
+}
+body{
+	background: #00ff0f;
+}
+.biryani h2 span{
+	background-color: #0000ff;
+	position: relative;
+	right: 0px;
+	top: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 1px solid black;
+}
+.burger h2 span{
+	background-color: #f0f000;
+	position: relative;
+	right: 0px;
+	top: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 1px solid black;
+}
+.mushroom h2 span{
+	background-color: #ff0000;
+	position: relative;
+	right: 0px;
+	top: 0px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border: 1px solid black;
+}
+section{
+	background-color: #f0f0f0;
+	margin: 10px;
+	position: relative;
+	border: 1px solid black;
+}
+@media (min-width: 992px) {
+    .col-lg-4{
+    	float: left;
+        width: 33.33%;
+    }
+}
+
+
+/* Tablet view options */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+
+/* Mobile view options */
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
